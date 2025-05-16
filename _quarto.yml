@@ -8,7 +8,7 @@ project:
     - /src/kilifi.qmd
     - /src/kirinyaga.qmd
     - /src/kisumu.qmd
-    - /src/rurkana.qmd
+    - /src/turkana.qmd
 
   preview:
     port: 230
@@ -25,7 +25,7 @@ website:
       - /src/kilifi.qmd
       - /src/kirinyaga.qmd
       - /src/kisumu.qmd
-      - /src/rurkana.qmd
+      - /src/turkana.qmd
 
   sidebar:
     style: "docked"
@@ -37,7 +37,7 @@ website:
       - /src/kilifi.qmd
       - /src/kirinyaga.qmd
       - /src/kisumu.qmd
-      - /src/rurkana.qmd
+      - /src/turkana.qmd
 
 format:
   html:
