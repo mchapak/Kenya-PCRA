@@ -3,7 +3,12 @@ project:
   output-dir: docs
   render:
     - index.qmd
-    - summary.qmd
+    - /src/executive_summary.qmd
+    - /src/all_counties_summary.qmd
+    - /src/kilifi.qmd
+    - /src/kirinyaga.qmd
+    - /src/kisumu.qmd
+    - /src/rurkana.qmd
 
   preview:
     port: 230
@@ -15,14 +20,24 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - summary.qmd
+      - /src/executive_summary.qmd
+      - /src/all_counties_summary.qmd
+      - /src/kilifi.qmd
+      - /src/kirinyaga.qmd
+      - /src/kisumu.qmd
+      - /src/rurkana.qmd
 
   sidebar:
     style: "docked"
     search: true
     contents:
       - index.qmd
-      - summary.qmd
+      - /src/executive_summary.qmd
+      - /src/all_counties_summary.qmd
+      - /src/kilifi.qmd
+      - /src/kirinyaga.qmd
+      - /src/kisumu.qmd
+      - /src/rurkana.qmd
 
 format:
   html:
