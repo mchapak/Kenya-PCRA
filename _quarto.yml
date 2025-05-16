@@ -1,19 +1,38 @@
 project:
   type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - summary.qmd
+
+  preview:
+    port: 230
 
 website:
-  title: "website"
+  title: "Kenya County PCRA"
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - summary.qmd
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - summary.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
 
-editor: visual
+callout-appearance: simple
 
+execute:
+  freeze: auto # to ensure R code is only executed locally
+
+editor: visual
